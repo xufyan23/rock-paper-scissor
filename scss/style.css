@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%; }
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 16px;
+  background: #1f3756;
+  background: -moz-radial-gradient(circle, #1f3756 48%, #141539 100%);
+  background: -webkit-radial-gradient(circle, #1f3756 48%, #141539 100%);
+  background: radial-gradient(circle, #1f3756 48%, #141539 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f3756",endColorstr="#141539",GradientType=1);
+  color: #ffffff;
+  height: 100vh;
+  text-align: center; }
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto; }
+
+a {
+  color: #3e52a3; }
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+  text-align: left;
+  text-transform: uppercase; }
+
+.header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #606e85;
+  max-width: 60%;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px auto; }
+  .header-block .score-board {
+    background-color: #ffffff;
+    padding: 20px;
+    color: #3b4363;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-radius: 10px; }
+  .header-block .score-board-heading {
+    color: #2a46c0;
+    font-size: 0.5rem;
+    text-align: center; }
+
+.result {
+  margin-bottom: 30px; }
+  .result h1 {
+    text-align: center; }
+
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .choices .choice {
+    background-color: white;
+    padding: 25px;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease; }
+    .choices .choice:hover {
+      cursor: pointer;
+      background-color: #ccc; }
+
+.red-glow {
+  border: 15px solid #dc2e4e; }
+
+.blue-glow {
+  border: 15px solid #4865f4; }
+
+.yellow-glow {
+  border: 15px solid #ec9e0e; }
+
+.make-move {
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */

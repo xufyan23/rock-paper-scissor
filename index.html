@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Barlow+Semi+Condensed">
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-block">
+        <div class="score-board_heading">
+          <h1>Rock</h1>
+          <h1>Paper</h1>
+          <h1>Scissors</h1>
+        </div>
+        <div class="score-board">
+          <div class="score-board-heading">SCORE</div>
+          <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+      </div>
+
+      <div class="result">
+        <h1 class="text-center">paper cover rock you win</h1>
+      </div>
+
+      <div class="choices">
+        <div class="choice" id="rock">
+          <img src="./images/icon-rock.svg" alt="icon rock">
+        </div>
+        <div class="choice" id="paper">
+          <img src="./images/icon-paper.svg" alt="icon paper">
+        </div>
+        <div class="choice" id="scissor">
+          <img src="./images/icon-scissors.svg" alt="icon scissor">
+        </div>
+      </div>
+
+      <div class="make-move">
+        <p>make your move</p>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
